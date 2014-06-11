@@ -34,7 +34,7 @@ _selfie.apply(['obj', 'object2']);
 
 _selfie will also run a method called 'init' if the object being handled provides one;
 
-this way you can use the term '_self'in any scope inside the object to refer to the object name:
+this way you can use the term '_self' in any scope inside the object to refer to the object name:
 
 ```javascript
 var obj = {
