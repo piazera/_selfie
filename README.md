@@ -43,4 +43,5 @@ var obj = {
       console.log(_self); //_self will refer to 'obj' variable
     });
   };
-}```
+}
+```
