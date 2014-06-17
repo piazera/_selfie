@@ -41,7 +41,7 @@ var obj = {
 }
 ```
 
-when scheduling callbacks with 'setTimeout' function, the work 'this' inside the callback will refer to the window object
+when scheduling callbacks with 'setTimeout' function, the word 'this' inside the callback will refer to the window object
 ```javascript
 var AnotherStaticClass = {
   callback: function(){
@@ -54,7 +54,9 @@ setTimeout(AnotherStaticClass.callback, 1000); /* it will print the object windo
 
 solution
 ==
-supose you have a file called 'test.js'with one only object, where you want to use the word _self in any of its functions to refer to the whole object regardless of the scope it is called
+supose you have a file called 'test.js' with one only object.
+
+use the word '_self' in its functions' body to refer to the whole object
 
 ```javascript
 /* file test.js */
