@@ -23,6 +23,7 @@ var MyStaticClass = {
 ```
 
 sometimes you get confused when using the js reserved word 'this'.
+
 in the same function, 'this' can result in different objects depending on the scope it's being called from.
 
 this plugin tries to present an alternative solution to this problem.
